@@ -1,0 +1,12 @@
+<div class="loading" *ngIf="loading">
+  <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+</div>
+<section>
+  <div class="btn" (click)="loadData()">Cargar datos</div>
+  <div class="container">
+      <app-cards [elementName]="element" (emitDelete)="deleteCard($event)" *ngFor="let element of elements"></app-cards>
+  </div>
+</section>
+
+
+<router-outlet></router-outlet>
