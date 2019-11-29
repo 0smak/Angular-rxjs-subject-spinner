@@ -11,4 +11,4 @@ en este caso hay cards que desde el componente padre se le pasa un nombre que mu
 
 
 readme escrito de madrugada explicado malamente espero que se entienda
-cualquier pregunta t.me/osmak
+cualquier pregunta [telegram](https://t.me/osmak)
